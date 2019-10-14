@@ -1,0 +1,21 @@
+apply plugin: 'groovy'
+
+version = '1.0'
+description = 'TRS'
+
+repositories {
+    mavenCentral()
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter:2.1.9.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa:2.1.9.RELEASE'
+    compile "com.h2database:h2:1.4.199"
+
+    testCompile "org.codehaus.groovy:groovy-all:2.5.7"
+    testCompile "org.spockframework:spock-core:1.3-groovy-2.5"
+}
+
+
+
