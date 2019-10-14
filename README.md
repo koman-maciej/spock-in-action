@@ -1,3 +1,5 @@
-# UNDER CONSTRUCTION!!!
+# Spock in action
 
-Be patient or die
+1. Clone project
+2. Just run: `./gradlew clean test [--info]`
+3. Enjoy!
